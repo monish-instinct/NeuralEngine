@@ -1,0 +1,240 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-macos13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MyNeuralFramework
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AVFoundation
+import AppKit
+import DeveloperToolsSupport
+import Foundation
+import Network
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct Project9 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project9V4bodyQrvp", 0) __
+}
+public func Notify(UID: Swift.String, msg: Swift.String)
+public var stars: [Swift.String : Swift.Int]
+@_Concurrency.MainActor @preconcurrency public struct StarRatingView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework14StarRatingViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct FixedStars : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework10FixedStarsV4bodyQrvp", 0) __
+}
+public func triggerHapticFeedback()
+@_Concurrency.MainActor @preconcurrency public struct Project6 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project6V4bodyQrvp", 0) __
+}
+public func str_replace(_ search: Swift.String, _ replace: Swift.String, in originalString: Swift.String) -> Swift.String
+@_hasMissingDesignatedInitializers public class SqlTracker {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SQLize : MyNeuralFramework.DatabaseConnectionEstablisher {
+  public func read(_ columnNames: Swift.String, _ tableName: Swift.String, _ whereCondition: Swift.String = "", _ others: Swift.String = "", file: Swift.String = #file, line: Swift.Int = #line) -> [Swift.String : Swift.String]?
+  @objc deinit
+}
+public var sql: MyNeuralFramework.SQLize
+@_Concurrency.MainActor @preconcurrency public struct ContactOurDeveloper : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework19ContactOurDeveloperV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct Project3 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project3V4bodyQrvp", 0) __
+}
+@_hasMissingDesignatedInitializers public class DatabaseConnectionEstablisher {
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+}
+@_hasMissingDesignatedInitializers public class DevOpsConnectionEstablisher {
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+  public func select(_ qry: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, ErrorHandling: Swift.Bool = true) -> [Swift.String : Swift.String]?
+}
+public var DevOps: MyNeuralFramework.DevOpsConnectionEstablisher
+@_hasMissingDesignatedInitializers public class DeviceFingerprintConnectionEstablisher {
+  @objc deinit
+  public func restart()
+  public func executeQuery(_ query: Swift.String) -> (Swift.Bool, [[Swift.String : Swift.String]]?)
+  public func reset(line: Swift.Int = #line, file: Swift.String = #file) -> Swift.Bool
+  public func select(_ qry: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, ErrorHandling: Swift.Bool = true) -> [Swift.String : Swift.String]?
+}
+public var DF: MyNeuralFramework.DeviceFingerprintConnectionEstablisher
+@_hasMissingDesignatedInitializers public class User {
+  public func setUserInfo(name: Swift.String, id: Swift.String, area: Swift.String, ownComCode: Swift.String)
+  public func getName() -> Swift.String
+  public func getId() -> Swift.String
+  public func getArea() -> Swift.String
+  public func getOwnComCode() -> Swift.String
+  @objc deinit
+}
+public var user: MyNeuralFramework.User
+@_Concurrency.MainActor @preconcurrency public struct workaround : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework10workaroundV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct DoubleDoughnutChart : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework19DoubleDoughnutChartV4bodyQrvp", 0) __
+}
+public struct CircleSegment : SwiftUICore.Shape {
+  nonisolated public func path(in rect: CoreFoundation.CGRect) -> SwiftUICore.Path
+  public typealias AnimatableData = SwiftUICore.EmptyAnimatableData
+  public typealias Body = SwiftUICore._ShapeView<MyNeuralFramework.CircleSegment, SwiftUICore.ForegroundStyle>
+}
+@_Concurrency.MainActor @preconcurrency public struct CurvedText : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework10CurvedTextV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct Project8 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project8V4bodyQrvp", 0) __
+}
+public func generateRandomAlphaNumeric(length: Swift.Int) -> Swift.String
+public func generateRandomNumber(length: Swift.Int) -> Swift.String
+public func generateRandomString(length: Swift.Int) -> Swift.String
+public func ua(_ input: Swift.String) -> Swift.String
+public func uc(_ input: Swift.String) -> Swift.String
+public func nfi(_ input: Swift.String) -> Swift.String
+public func numberToText(_ number: Swift.Int64) -> Swift.String
+@_hasMissingDesignatedInitializers public class appentoArr {
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct Project5 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project5V4bodyQrvp", 0) __
+}
+public func SQLiteEngineStrater()
+public var getSliderValue: [Swift.String : Swift.Double]
+@_Concurrency.MainActor @preconcurrency public struct BalloonSlider : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework13BalloonSliderV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct Project2 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project2V4bodyQrvp", 0) __
+}
+public func sendSMS(phonenumber: Swift.String, message: Swift.String)
+public func sendEmail(email: Swift.String, subject: Swift.String, body: Swift.String)
+public func sendWhatsapp(groupName: Swift.String, msg: Swift.String)
+@_Concurrency.MainActor @preconcurrency public struct Project10 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework9Project10V4bodyQrvp", 0) __
+}
+public func getDate() -> Swift.String
+public func getTime() -> Swift.String
+public func formatDate(_ inputString: Swift.String) -> Swift.String
+public func BarGraph(title1: Swift.String, shareNames: [Swift.String], percentage: [CoreFoundation.CGFloat], size: CoreFoundation.CGFloat) -> some SwiftUICore.View
+
+@_Concurrency.MainActor @preconcurrency public struct Project7 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project7V4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct Project4 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project4V4bodyQrvp", 0) __
+}
+public func cl<T>(_ object: Any? = nil, _ msg: T = "Reached Line $line : Iterated $i times", type: Swift.String = "Quick Print", line: Swift.Int = #line, function: Swift.String = #function, file: Swift.String = #file)
+public func cl<T>(_ msg: T = "Reached Line $line : Iterated $i times", type: Swift.String = "Quick Print", line: Swift.Int = #line, function: Swift.String = #function, file: Swift.String = #file)
+@_Concurrency.MainActor @preconcurrency public struct AccessDenied : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework12AccessDeniedV4bodyQrvp", 0) __
+}
+public func validatePhoneNumber(_ phoneNumber: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateName(_ name: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateOTP(_ OTP: Swift.String) -> (Swift.Bool, Swift.String)
+public func validateEmail(_ inputEmail: Swift.String) -> (Swift.Bool, Swift.String)
+public func ValidateAddress(_ address: Swift.String) -> (Swift.Bool, Swift.String)
+public func pieChart3D(_ title: Swift.String, _ shareNames: [Swift.String], _ percentages: [CoreFoundation.CGFloat], _ size: CoreFoundation.CGFloat, _ colorScheme: SwiftUICore.ColorScheme) -> some SwiftUICore.View
+
+@_Concurrency.MainActor @preconcurrency public struct Project1 : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework8Project1V4bodyQrvp", 0) __
+}
+public func enqry(_ query: Swift.String) -> Swift.String
+public var a: Swift.Int
+@_Concurrency.MainActor @preconcurrency public struct DevEnvironment : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework14DevEnvironmentV4bodyQrvp", 0) __
+}
+public func OTPNeverVerified() -> Swift.Bool
+public func OTPNotVerifiedToday() -> Swift.Bool
+public func reVerifyOTP() -> Swift.String
+public func separateSQLQueries(from input: Swift.String) -> [Swift.String]
+public func fetchTables(_ code: Swift.String)
+public func convertMySQLToSQLite(_ query: Swift.String)
+public func removeAfterLastParenthesis(from input: Swift.String) -> Swift.String
+public func LastVisitedPage() -> Swift.String?
+@_Concurrency.MainActor @preconcurrency public struct Background : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17MyNeuralFramework10BackgroundV4bodyQrvp", 0) __
+}
+
+extension MyNeuralFramework.Project9 : Swift.Sendable {}
+extension MyNeuralFramework.StarRatingView : Swift.Sendable {}
+extension MyNeuralFramework.FixedStars : Swift.Sendable {}
+extension MyNeuralFramework.Project6 : Swift.Sendable {}
+extension MyNeuralFramework.ContactOurDeveloper : Swift.Sendable {}
+extension MyNeuralFramework.Project3 : Swift.Sendable {}
+extension MyNeuralFramework.workaround : Swift.Sendable {}
+extension MyNeuralFramework.DoubleDoughnutChart : Swift.Sendable {}
+extension MyNeuralFramework.CurvedText : Swift.Sendable {}
+extension MyNeuralFramework.Project8 : Swift.Sendable {}
+extension MyNeuralFramework.Project5 : Swift.Sendable {}
+extension MyNeuralFramework.BalloonSlider : Swift.Sendable {}
+extension MyNeuralFramework.Project2 : Swift.Sendable {}
+extension MyNeuralFramework.Project10 : Swift.Sendable {}
+extension MyNeuralFramework.Project7 : Swift.Sendable {}
+extension MyNeuralFramework.Project4 : Swift.Sendable {}
+extension MyNeuralFramework.AccessDenied : Swift.Sendable {}
+extension MyNeuralFramework.Project1 : Swift.Sendable {}
+extension MyNeuralFramework.DevEnvironment : Swift.Sendable {}
+extension MyNeuralFramework.Background : Swift.Sendable {}
